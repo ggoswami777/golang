@@ -16,3 +16,12 @@ func varTypes(){
     fmt.Printf("Type: %T Value: %v\n",z,z)
 }
 
+// %v prints value in go and %q is print string with quotes
+
+func varTypes2(){
+    var i int
+    var f float64
+    var b bool
+    var s string
+    fmt.Printf("%v %v %v %q\n",i,f,b,s)
+}
