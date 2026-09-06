@@ -1,7 +1,9 @@
 package main
+
 import (
-    "fmt"
-    "math/cmplx"
+	"fmt"
+	"math"
+	"math/cmplx"
 )
 
 var(
@@ -24,4 +26,11 @@ func varTypes2(){
     var b bool
     var s string
     fmt.Printf("%v %v %v %q\n",i,f,b,s)
+}
+
+func typeAssign(){
+     var x,y int=3,4
+     var f float64=math.Sqrt(float64(x*x + y*y))
+     var z uint=uint(f)
+     fmt.Println(x,y,z)
 }
