@@ -34,3 +34,9 @@ func typeAssign(){
      var z uint=uint(f)
      fmt.Println(x,y,z)
 }
+
+// type interference
+func typeInterference(){
+    v:=42
+    fmt.Printf("v is of type %T\n",v)
+}
