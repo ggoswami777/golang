@@ -15,4 +15,4 @@ func forloop2(){
 		sum+=sum
 	}
 	fmt.Println(sum)
-}
+} 
