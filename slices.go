@@ -17,7 +17,7 @@ func slicesExample(){
 	fmt.Println(names)
 }
   
-func slicesExample2(){
+func slicesExample2()main
 	q:=[]int{2,3,5,7,11,13}
 	fmt.Println(q)
 
